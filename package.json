@@ -1,0 +1,27 @@
+{
+  "name": "naive-factorization",
+  "version": "1.0.0",
+  "description": "naive solver for the prime factorization problem",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fuscofrancesco/naive-factorization.git"
+  },
+  "keywords": [
+    "naive",
+    "prime",
+    "factorization",
+    "factorization",
+    "integer",
+    "factorization"
+  ],
+  "author": "ffusco",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fuscofrancesco/naive-factorization/issues"
+  },
+  "homepage": "https://github.com/fuscofrancesco/naive-factorization#readme"
+}
