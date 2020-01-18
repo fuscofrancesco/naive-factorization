@@ -6,29 +6,45 @@ The naive solution is based on a while loop in which, starting from 2, we search
 
 ## Usage
 
-You will need [node JS](https://nodejs.org/en/) installed.
+### Option 1: online
 
-### Option 1: clone this repo
+Using runkit. Simply click [here](https://npm.runkit.com/naive-factorization) and copy/paste this code:
+```javascript
+const NaiveFactorizer = require("naive-factorization")
 
-You can clone this repo and start by running:
-```sh
-node .
->.fatorize 26435463
-prime? false
-factors: 1,3,307,28703
-elapsed seconds: 0.005
+const factorizer = new NaiveFactorizer();
+
+factorizer.factorize(n);
+factorizer.print();
+
 ```
+
 ### Option 2: use npm
+
+You will need [node JS](https://nodejs.org/en/) installed.
 
 1. Install the library:
 ```sh
 npm install naive-factorization
 ```
-2. Create a file named index.js containing the below line:
-```javascript
-const nf = require('naive-factorization');
-```
-3. Simply run:
+2. Run the below command:
 ```sh
-node .
+node node_modules/naive-factorization/index.js
+>.fatorize 26435463
+prime? false
+factors: 1,3,307,28703
+elapsed seconds: 0.005
+```
+
+### Option 3: clone this repo
+
+You will need [node JS](https://nodejs.org/en/) installed.
+
+You can clone this repo and start by running:
+```sh
+node index.js
+>.fatorize 26435463
+prime? false
+factors: 1,3,307,28703
+elapsed seconds: 0.005
 ```
