@@ -1,6 +1,6 @@
 {
   "name": "naive-factorization",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "naive solver for the prime factorization problem",
   "main": "NaiveFactorizer.js",
   "scripts": {

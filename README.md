@@ -10,11 +10,11 @@ The naive solution is based on a while loop in which, starting from 2, we search
 
 Using runkit. Simply click [here](https://npm.runkit.com/naive-factorization) and copy/paste this code:
 ```javascript
-const NaiveFactorizer = require("naive-factorization")
+const { NaiveFactorizer } = require("naive-factorization")
 
 const factorizer = new NaiveFactorizer();
 
-factorizer.factorize(n);
+factorizer.factorize(3746264);
 factorizer.print();
 
 ```
